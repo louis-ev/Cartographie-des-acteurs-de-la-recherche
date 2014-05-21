@@ -1,7 +1,9 @@
 Cartographie-des-acteurs-de-la-recherche
 ========================================
 
-Project started and developed (so far) by the Sociable Media interaction design group at EnsAD Paris.
+*design research cartography*
+
+Project started by the Sociable Media interaction design group at EnsAD Paris.
 
 Hosted here: http://sociablemedia.ensadlab.fr/cartographie-acteurs-recherche
 
