@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cartographie de la recherche en design</title>
+        <meta name="description" content="Un panorama des acteurs de la recherche en design développé par le laboratoire Sociable Media de l'EnsadLab Paris">
+        <meta name="viewport" content="width=device-width">
+
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+	    <script type="text/javascript" src="http://polymaps.org/polymaps.min.js?2.5.0"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div id="carto-tooltip">
+    	<div class="container">
+			<div id="slider-button"><img src="assets/arrow-corner.png" alt="arrow-corner" width="20px" height="20px" /></div>
+		    <h1 class="titre">Cartographie de la&nbsp;recherche en&nbsp;design</h1>
+
+		    <div class="bloc-intro">
+		    	<a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" style="vertical-align: middle; margin-right: 5px;">
+					<img src="assets/cc.large.png" alt="by.large" width="" height="20px" />
+					<img src="assets/by.large.png" alt="by.large" width="" height="20px" />
+					<img src="assets/sa.large.png" alt="by.large" width="" height="20px" />
+		    	</a>
+			    <a href="http://www.ensad.fr/recherche/ensadlab" target="_blank" style="vertical-align: middle;">
+			    	<h2 style="display:inline-block; vertical-align: middle;"> — EnsadLab</h2>
+		    	</a>
+			</div><p>Un panorama des lieux, laboratoires, praticiens et explorateurs qui composent le paysage de la recherche en, par, à travers et sur le design, en France et en Europe. Cette carte nécessairement imparfaite est une tentative de cerner les contours d'un territoire vaste celui du design et de la recherche, aux confins de la culture design, des sciences de la conception, de l'exploration artistique, des méthodes et autres disciplines qui prennent le design comme terrain.</p>
+
+<p><a href="http://nala.io/wordpress/?p=78" target="_blank">→ plus d'infos</a></p>
+		    <hr>
+
+			<p class="legende">Lieux de recherche :</p>
+			<div style="text-align: center;">
+				<div id="boutons">
+					<button style="color: #d62728" class="boutons" id="academique">Académique</button>
+					<button style="color: #ff7f0e" class="boutons" id="exploratoire">Exploratoire</button>
+					<button style="color: #1f77b4" class="boutons" id="praticien">Praticien</button>
+				</div>
+			</div>
+		    <hr>
+
+			<p class="name">Lieu</p>
+
+			<p class="description">description</p>
+		</div>
+    </div>
+    <div id="map"></div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+
+/* hash
+http://louiseveillard.com/files/carto-dr-4/index.html?lng:2.35048&lat:48.860394
+
+*/
+
+$(".boutons").click(function () {
+	if ( $(this).hasClass("disabled") ) {
+		$("." + $(this).attr("id")).css("opacity", 1);
+	}
+	else {
+		$("." + $(this).attr("id")).css("opacity", 0);
+	}
+	$(this).toggleClass("disabled");
+
+});
+
+$("#slider-button").click(function () {
+	$("#carto-tooltip").toggleClass("collapsed");
+});
+
+var longitude, latitude, zoom;
+
+if ( document.location.href.match(/lng=(\d+)/) ) {
+
+	longitude = parseFloat(document.location.href.split('?')[1].split('&')[0].substring(4));
+	latitude = parseFloat(document.location.href.split('?')[1].split('&')[1].substring(4));
+	zoom = parseFloat(document.location.href.split('?')[1].split('&')[2].substring(4));
+
+}
+
+if (typeof longitude !== "number" || typeof latitude !== "number") {
+	longitude = 2.3;
+	latitude = 48.842738;
+} else {
+
+
+
+}
+
+if (typeof zoom !== "number") {
+	zoom = 6;
+}
+
+
+var po = org.polymaps;
+
+// Create the map object, add it to #map…
+var map = po.map()
+    .container(d3.select("#map").append("svg:svg").node())
+    .zoom(zoom)
+    .center({lat: latitude, lon: longitude})
+    .add(po.interact());
+
+// Add the CloudMade image tiles as a base layer…
+map.add(po.image()
+    .url(po.url("http://{S}tile.cloudmade.com"
+    + "/1a1b06b230af4efdbb989ea99e9841af" // http://cloudmade.com/register a5ab771b67ed4ae59c6894fcce520a47 43d372ddd0604d3ab820848bfea9063a 1a1b06b230af4efdbb989ea99e9841af
+    + "/120318/256/{Z}/{X}/{Y}.png")
+    .hosts(["a.", "b.", "c.", ""])));
+
+// Add the compass control on top.
+map.add(po.compass()
+    .pan("none"));
+
+// Load the station data. When the data comes back, create an overlay.
+parsejsontomap = function ( json, couleur, typedonnees ) {
+
+	d3.json( json, function(data) {
+
+		// Insert our layer beneath the compass.
+		  var layer = d3.select("#map svg").insert("svg:g", ".compass");
+
+	      var marker = layer.selectAll("g")
+	          .data(data.features)
+			  .enter()
+			  .append("svg:g")
+	          .attr("class", "marker " + typedonnees)
+			  .attr("transform", transform)
+			  .each( function (d) {
+				  	var coord = d.geometry.coordinates;
+				  	if(coord[0] === longitude && coord[1] === latitude) {
+					  	showInfos(d);
+			  		}
+			  })
+			  .on("mousedown", function(d) {
+  			   	  d3.event.stopPropagation();
+				  showInfos (d);
+					d3.selectAll(".marker").classed("selected", false);
+				  d3.select(this).classed("selected",true);
+				})
+
+	      ;
+
+
+	      // Add a circle.
+	      marker.append("svg:circle")
+	          .attr("r", 10)
+	          .style("fill", couleur)
+	          .style("stroke", couleur)
+	          .style("stroke-opacity", .8)
+	          .style("fill-opacity", .1)
+	      ;
+
+		  // Add a label.
+		  marker.append('foreignObject')
+				  .attr('width', '100%')
+				  .attr('height', '100%')
+				  .attr('x', "1.5em")
+				  .attr('y', "-15px")
+				 .append('xhtml:div')
+				 .attr('class', 'encart')
+				 .append('h2')
+
+		      .attr("class", "label")
+		      .text(function(d) { return d.properties.Name; })
+		  ;
+
+		  marker.selectAll(".encart")
+					  .style("margin-left",  parseFloat(zoom*1) + "px")
+					  .style("font-size", parseFloat(zoom/10) + "em")
+				  ;
+
+		  // Whenever the map moves, update the marker positions.
+		  map.on("move", function() {
+		    layer.selectAll("g").attr("transform", transform);
+
+		    zoom = map.zoom();
+				marker.selectAll(".encart")
+					  .style("margin-left",  parseFloat(zoom*1) + "px")
+					  .style("font-size", parseFloat(zoom/10) + "em")
+				  ;
+		  });
+
+		  function transform(d) {
+		    d = map.locationPoint({lon: d.geometry.coordinates[0], lat: d.geometry.coordinates[1]});
+		    return "translate(" + d.x + "," + d.y + ")";
+		  }
+
+	      function showInfos (e) {
+				d3.select("#carto-tooltip .name")
+			      .html(function() { return e.properties.Name; });
+
+				d3.select("#carto-tooltip .description")
+			      .html(function() { return e.properties.Description; });
+
+		  }
+
+		});
+}
+
+// orange/rouge FC8815
+parsejsontomap( "raw/Academique.json", "#d62728", "academique" );
+// bleu 406EFF
+parsejsontomap( "raw/Praticiens.json", "#1f77b4", "praticien" );
+// jaune FFFA45
+parsejsontomap( "raw/Exploratoire.json", "#ff7f0e", "exploratoire" );
+
+
+     </script>
+
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

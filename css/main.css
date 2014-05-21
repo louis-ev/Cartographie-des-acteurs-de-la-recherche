@@ -1,0 +1,291 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html, body, #map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+	color: #333;
+	background-color: rgb(216,216,216);
+	font-size:90%;
+}
+
+hr {
+	border-top: .1em solid royalblue;
+}
+
+h1, h2, h3 {
+	padding:0;
+	margin:0;
+}
+
+.encart {
+	width: auto;
+	max-width: 200px;
+}
+
+h2 {
+	color: #999;
+	background-color: rgba(241,238,232,.5);
+	display: inline;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #999;
+
+
+}
+
+text {
+	fill: #aaa;
+}
+
+text.label {
+	background-color: #fff;
+}
+
+
+.marker:hover text {
+	fill: #222;
+	transition: fill, .2s;
+}
+
+
+.marker.selected > circle {
+	stroke-opacity: 1;
+    fill-opacity: .8 !important;
+
+}
+
+
+#carto-tooltip {
+	position: absolute;
+	background-color: #f8f8f8;
+	z-index: 1000;
+	margin: 15px;
+	width: 40%;
+	min-width: 200px;
+	max-width: 400px;
+	min-height: 100px;
+	max-height: 95%;
+	overflow-y: scroll;
+	box-shadow: 3px 3px 0px #e3e3e3;
+	transition: font 0.3s ease, width .3s ease;
+}
+
+#carto-tooltip .container {
+	padding: 10px 15px;
+
+}
+
+#carto-tooltip #slider-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	margin: 0px;
+	background-color: #e3e3e3;
+	box-sizing: border-box;
+	cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+
+}
+
+#carto-tooltip.collapsed #slider-button {
+	-webkit-transform: rotate(180deg);
+	transition: rotate .3s;
+}
+#carto-tooltip #slider-button img {
+}
+
+#carto-tooltip .bloc-intro {
+	padding-top: 10px;
+
+}
+
+#carto-tooltip hr {
+	border-top: .4em solid royalblue;
+}
+
+#carto-tooltip p {
+	font-size:1em;
+	margin: 15px 0 20px 0;
+}
+
+#carto-tooltip .titre {
+	font-size: 350%;
+	font-weight: 700;
+	line-height: 1.1em;
+	color: royalblue;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	border-bottom: .15em solid royalblue;
+}
+
+#carto-tooltip .name {
+	font-size:1.2em;
+}
+
+#carto-tooltip #boutons {
+	margin: auto;
+	width: 90%;
+}
+#carto-tooltip .boutons.disabled {
+	color: gray !important;
+}
+
+#carto-tooltip .legende {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#carto-tooltip button {
+	-webkit-appearance: none;
+	width: 30%;
+	margin: 1%;
+	background-color: #e5e5e5;
+	border: 1px #ddd solid;
+	padding: 5px;
+}
+
+
+.compass {
+	fill:grey;
+	stroke:#eee;
+}
+
+
+.praticien, .academique, .exploratoire {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 992px) {
+	#carto-tooltip.collapsed {
+		width: 19%;
+		min-width: 200px;
+		font-size: .5em;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+	#carto-tooltip {
+		width: 100%;
+		max-width: inherit;
+		margin:0;
+		position:relative;
+	}
+	#carto-tooltip .titre {
+		font-size: 150%;
+		font-weight: 700;
+		line-height: 1.1em;
+		color: royalblue;
+		/* text-align: center; */
+		padding-bottom: 10px;
+		border-bottom: .1em solid royalblue;
+	}
+
+	#carto-tooltip button {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}

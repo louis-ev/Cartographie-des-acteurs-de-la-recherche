@@ -1,0 +1,360 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"Name": "ENSAD (École nationale supérieure des arts décoratifs)",
+			"Description": "Emmanuel Mahé"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.34461, 48.842738, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université Paris Ouest Nanterre La Défense",
+			"Description": "Laboratoire CEROS"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.211008, 48.903487, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "CRI (Centre de Recherche Interdisciplinaire)",
+			"Description": "Master AIRE"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.362912700000038, 48.8529495, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "ENSCI - Les Ateliers (Ecole Nationale Supérieure de Création Industrielle)",
+			"Description": "Paris Design Lab"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.369265, 48.858377, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Pantheon-Sorbonne University",
+			"Description": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.34436, 48.846971, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Ecole de Mines de Paris",
+			"Description": "Centre de Gestion Scientifique"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.339514, 48.845086, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université Paris Sud",
+			"Description": "Insitu Aviz"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.17908, 48.701437, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Télécom ParisTech",
+			"Description": "Co-design and Media Studies Lab"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.346408, 48.826269, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Arts et Métiers ParisTech",
+			"Description": "LCPI"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.358388, 48.833606, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Paris College of Art",
+			"Description": "Knowledge Network"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.29507, 48.848339, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Faculté des Sciences et Techniques",
+			"Description": "ISAM-IAE"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [6.159221099999968, 48.6638353, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université de Technologie de Compiègne",
+			"Description": "Master Design"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.8189, 49.415348, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Institut polytechnique de Grenoble",
+			"Description": "Pôle CI - Equipe CPP - GSCOP"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [5.71736, 45.191133, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Faculté des Sciences Économiques et de Gestion",
+			"Description": "Master Recherche Etudes et conseil en sciences de gestion"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [5.375338, 43.299929, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université de Nîmes",
+			"Description": "Pôles Arts Unimes Master Design innovation société"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [4.356994399999962, 43.8424154, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université Bordeaux 3",
+			"Description": "MICA - Mediation, Communication, Information, Art - EA4426"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.61844, 44.795136, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "L'École de design Nantes Atlantique",
+			"Description": "Centre de design et d'innovation"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-1.518368, 47.283247, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "istia - école d'ingénieurs de l'université d'angers",
+			"Description": "Filière ingénierie de l'innovation "
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.592293, 47.480489, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Université de Madeire",
+			"Description": "MITI"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-16.90941, 32.649961, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Goldsmiths University of London",
+			"Description": "Interaction Research Studio"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.037008, 51.47407, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Royal College of Art",
+			"Description": "Designing Interactions"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.17928, 51.501144, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Northumbria University",
+			"Description": "Design issues \/ Centre for Design Research"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.108734, 51.533091, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Aalto University",
+			"Description": "School of Art and Design"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.83122, 60.182518, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "KTH Royal Institute of Technology",
+			"Description": "Interactive Institute"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [18.07354, 59.347327, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Technische Universiteit Delft",
+			"Description": "Department of Industrial design"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [4.37646, 51.998311, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Eindhoven University of Technology",
+			"Description": "Department of industrial design"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [5.49059, 51.44845, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Folkwang University of the Arts",
+			"Description": "Folkwang Gstaltung"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [7.00338, 51.3875, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "University of Potsdam",
+			"Description": "FHP Interaction Design Lab"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [13.01191, 52.401031, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "HEAD—Geneva University of Art and Design",
+			"Description": "Master Media Design Nicolas Nova"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [6.141139, 46.208934, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Politecnico di Milano",
+			"Description": "Dipartimento di Industrial Design, Arti, Communicazione e Moda (INDACO)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [9.22728, 45.478146, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Campus Universitaire de La Manouba",
+			"Description": "Ecole supérieure des sciences et technologies du design de Tunis"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [10.062541799999963, 36.8153528, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "Strate, école de design",
+			"Description": "Département Recherche"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [2.22442, 48.823356, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "ZHDK Zürcher Hochschule der Künste",
+			"Description": "Karmen Franinović. Head of Interaction Design"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [8.535693, 47.38287, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "EPFL Swiss Federal Institute of Technology Lausanne",
+			"Description": "Frédéric Kaplan Digital Humanities"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [6.5657, 46.519745, 0.0]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"Name": "ECAL \/ Ecole cantonale d'art de Lausanne",
+			"Description": "EPFL+ECAL LAB"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [6.588525, 46.536742, 0.0]
+		}
+	}]
+}

@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Académique</name>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>ENSAD (École nationale supérieure des arts décoratifs)</name>
+			<description><![CDATA[Emmanuel Mahé]]></description>
+			<Point>
+				<coordinates>2.3446119999999837,48.842738,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université Paris Ouest Nanterre La Défense</name>
+			<description><![CDATA[Laboratoire CEROS]]></description>
+			<Point>
+				<coordinates>2.2110079999999925,48.903487,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>CRI (Centre de Recherche Interdisciplinaire)</name>
+			<description><![CDATA[Master AIRE]]></description>
+			<Point>
+				<coordinates>2.362912700000038,48.8529495,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>ENSCI - Les Ateliers (Ecole Nationale Supérieure de Création Industrielle)</name>
+			<description><![CDATA[Paris Design Lab]]></description>
+			<Point>
+				<coordinates>2.3692650000000413,48.858377,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Pantheon-Sorbonne University</name>
+			<Point>
+				<coordinates>2.3443600000000515,48.846971,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Ecole de Mines de Paris</name>
+			<description><![CDATA[Centre de Gestion Scientifique]]></description>
+			<Point>
+				<coordinates>2.3395140000000083,48.845086,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université Paris Sud</name>
+			<description><![CDATA[Insitu
+Aviz]]></description>
+			<Point>
+				<coordinates>2.1790849999999864,48.701437,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Télécom ParisTech</name>
+			<description><![CDATA[Co-design and Media Studies Lab]]></description>
+			<Point>
+				<coordinates>2.3464079999999967,48.826269,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Arts et Métiers ParisTech</name>
+			<description><![CDATA[LCPI]]></description>
+			<Point>
+				<coordinates>2.358387999999991,48.833606,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Paris College of Art</name>
+			<description><![CDATA[Knowledge Network]]></description>
+			<Point>
+				<coordinates>2.2950700000000097,48.848339,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Faculté des Sciences et Techniques</name>
+			<description><![CDATA[ISAM-IAE]]></description>
+			<Point>
+				<coordinates>6.159221099999968,48.6638353,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université de Technologie de Compiègne</name>
+			<description><![CDATA[Master Design]]></description>
+			<Point>
+				<coordinates>2.8189009999999826,49.415348,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Institut polytechnique de Grenoble</name>
+			<description><![CDATA[Pôle CI - Equipe CPP - GSCOP]]></description>
+			<Point>
+				<coordinates>5.717358999999988,45.191133,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Faculté des Sciences Économiques et de Gestion</name>
+			<description><![CDATA[Master Recherche
+Etudes et conseil en sciences de gestion]]></description>
+			<Point>
+				<coordinates>5.375338000000056,43.299929,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université de Nîmes</name>
+			<description><![CDATA[Pôles Arts Unimes
+Master Design innovation société]]></description>
+			<Point>
+				<coordinates>4.356994399999962,43.8424154,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université Bordeaux 3</name>
+			<description><![CDATA[MICA - Mediation, Communication, Information, Art - EA4426]]></description>
+			<Point>
+				<coordinates>-0.6184419999999591,44.795136,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>L'École de design Nantes Atlantique</name>
+			<description><![CDATA[Centre de design et d'innovation]]></description>
+			<Point>
+				<coordinates>-1.5183680000000095,47.283247,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>istia - école d'ingénieurs de l'université d'angers</name>
+			<description><![CDATA[Filière ingénierie de l'innovation ]]></description>
+			<Point>
+				<coordinates>-0.5922930000000406,47.480489,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Université de Madeire</name>
+			<description><![CDATA[MITI]]></description>
+			<Point>
+				<coordinates>-16.909407999999985,32.649961,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Goldsmiths University of London</name>
+			<description><![CDATA[Interaction Research Studio]]></description>
+			<Point>
+				<coordinates>-0.03700800000001436,51.47407,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Royal College of Art</name>
+			<description><![CDATA[Designing Interactions]]></description>
+			<Point>
+				<coordinates>-0.1792849999999362,51.501144,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Northumbria University</name>
+			<description><![CDATA[Design issues / Centre for Design Research]]></description>
+			<Point>
+				<coordinates>-0.10873400000002675,51.533091,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Aalto University</name>
+			<description><![CDATA[School of Art and Design]]></description>
+			<Point>
+				<coordinates>24.83122000000003,60.182518,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>KTH Royal Institute of Technology</name>
+			<description><![CDATA[Interactive Institute]]></description>
+			<Point>
+				<coordinates>18.073536999999988,59.347327,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Technische Universiteit Delft</name>
+			<description><![CDATA[Department of Industrial design]]></description>
+			<Point>
+				<coordinates>4.376457999999957,51.998311,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Eindhoven University of Technology</name>
+			<description><![CDATA[Department of industrial design]]></description>
+			<Point>
+				<coordinates>5.490594999999985,51.44845,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Folkwang University of the Arts</name>
+			<description><![CDATA[Folkwang Gstaltung]]></description>
+			<Point>
+				<coordinates>7.003379999999993,51.3875,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>University of Potsdam</name>
+			<description><![CDATA[FHP Interaction Design Lab]]></description>
+			<Point>
+				<coordinates>13.011909999999943,52.401031,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>HEAD—Geneva University of Art and Design</name>
+			<description><![CDATA[Master Media Design
+Nicolas Nova]]></description>
+			<Point>
+				<coordinates>6.1411390000000665,46.208934,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Politecnico di Milano</name>
+			<description><![CDATA[Dipartimento di Industrial Design, Arti, Communicazione e Moda (INDACO)]]></description>
+			<Point>
+				<coordinates>9.227284999999938,45.478146,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Campus Universitaire de La Manouba</name>
+			<description><![CDATA[Ecole supérieure des sciences et technologies du design de Tunis]]></description>
+			<Point>
+				<coordinates>10.062541799999963,36.8153528,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>Strate, école de design</name>
+			<description><![CDATA[Département Recherche]]></description>
+			<Point>
+				<coordinates>2.224420000000009,48.823356,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>ZHDK Zürcher Hochschule der Künste</name>
+			<description><![CDATA[Karmen Franinović. Head of Interaction Design]]></description>
+			<Point>
+				<coordinates>8.535693000000038,47.38287,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>EPFL Swiss Federal Institute of Technology Lausanne</name>
+			<description><![CDATA[Frédéric Kaplan
+Digital Humanities]]></description>
+			<Point>
+				<coordinates>6.5657019999999875,46.519745,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-FF7C2F</styleUrl>
+			<name>ECAL / Ecole cantonale d'art de Lausanne</name>
+			<description><![CDATA[EPFL+ECAL LAB]]></description>
+			<Point>
+				<coordinates>6.588525000000004,46.536742,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-959-FF7C2F'>
+			<IconStyle>
+				<color>ff2F7CFF</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

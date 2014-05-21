@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Exploratoire</name>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Institut de Recherche et d'Innovation</name>
+			<Point>
+				<coordinates>2.3504769999999553,48.860394,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>No Design Lab</name>
+			<Point>
+				<coordinates>2.3692381381988525,48.858510528069914,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>École Boulle</name>
+			<Point>
+				<coordinates>2.3915130000000318,48.84679,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Volumiques</name>
+			<Point>
+				<coordinates>2.3113902000000053,48.8203858,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>École Supérieure d'Art d'Aix-en-Provence</name>
+			<Point>
+				<coordinates>5.440984000000071,43.530156,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>ANRT Atelier National de Recherche Typographique</name>
+			<Point>
+				<coordinates>6.17196899999999,48.681437,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Copenhagen Institute Of Interaction Design</name>
+			<Point>
+				<coordinates>12.593497999999954,55.682406,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>ART+COM</name>
+			<Point>
+				<coordinates>13.344587000000047,52.501249,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Ars Electronica Center</name>
+			<Point>
+				<coordinates>14.284442000000013,48.309599,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>La Fabrica</name>
+			<Point>
+				<coordinates>12.265870899999982,45.7352158,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>MediaLab Prado</name>
+			<Point>
+				<coordinates>-3.6937643999999636,40.4108305,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Dunne &amp; Raby</name>
+			<Point>
+				<coordinates>-0.0656060000000025,51.525968,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Auger &amp; Loizeau</name>
+			<Point>
+				<coordinates>-0.11982439999997041,51.51121389999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>Institut HyperWerk HGK FHNW</name>
+			<description><![CDATA[Postindustrial Design]]></description>
+			<Point>
+				<coordinates>7.585210999999958,47.562157,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-959-F4EB37</styleUrl>
+			<name>ELISAVA Escuela Superior de Diseño e Ingeniería de Barcelona</name>
+			<description><![CDATA[Elisva TDD
+http://tdd.elisava.net/?set_language=en&cl=en]]></description>
+			<Point>
+				<coordinates>2.1761719999999514,41.37849,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-959-F4EB37'>
+			<IconStyle>
+				<color>ff37EBF4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

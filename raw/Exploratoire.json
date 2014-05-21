@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Institut de Recherche et d'Innovation", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 2.35048, 48.860394, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "No Design Lab", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 2.369238138198853, 48.858510528069914, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "École Boulle", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 2.391513, 48.84679, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Volumiques", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 2.3113902, 48.8203858, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "École Supérieure d'Art d'Aix-en-Provence", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 5.440984, 43.530156, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "ANRT Atelier National de Recherche Typographique", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 6.171969, 48.681437, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Copenhagen Institute Of Interaction Design", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 12.5935, 55.682406, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "ART+COM", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 13.344587, 52.501249, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ars Electronica Center", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 14.284442, 48.309599, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "La Fabrica", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 12.265870899999982, 45.7352158, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "MediaLab Prado", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.693764399999963, 40.4108305, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Dunne & Raby", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -0.065606, 51.525968, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Auger & Loizeau", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -0.1198244, 51.5112139, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Institut HyperWerk HGK FHNW", "Description": "Postindustrial Design" }, "geometry": { "type": "Point", "coordinates": [ 7.58521, 47.562157, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "ELISAVA Escuela Superior de Diseño e Ingeniería de Barcelona", "Description": "Elisva TDD http:\/\/tdd.elisava.net\/?set_language=en&cl=en" }, "geometry": { "type": "Point", "coordinates": [ 2.17617, 41.37849, 0.0 ] } }
+]
+}
